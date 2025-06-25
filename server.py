@@ -3,7 +3,7 @@ from typing import Annotated
 from fastmcp import FastMCP
 from fastmcp.server.auth.providers.bearer import BearerAuthProvider, RSAKeyPair
 import markdownify
-from mcp.server.auth.provider import AccessToken
+from fastmcp.server.auth.provider import AccessToken
 from pathlib import Path
 import readabilipy
 import PyPDF2
