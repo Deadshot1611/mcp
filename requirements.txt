@@ -1,8 +1,7 @@
-fastmcp==0.5.0
+fastmcp==2.1.0
 markdownify==0.13.1
 readabilipy==0.2.0
 PyPDF2==3.0.1
 pydantic==2.10.3
 httpx==0.28.1
-python-multipart==0.0.12
 openai
