@@ -1,7 +1,8 @@
 import os
 from typing import Annotated
 from fastmcp import FastMCP
-from fastmcp.server.auth.providers.bearer import BearerAuthProvider, RSAKeyPair
+from fastmcp.server.auth import BearerAuthProvider
+from fastmcp.server.auth.providers.bearer import RSAKeyPair
 import markdownify
 from mcp.server.auth.provider import AccessToken
 from pathlib import Path
