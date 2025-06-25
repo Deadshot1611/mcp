@@ -370,7 +370,7 @@ async def main():
     port = int(os.environ.get("PORT", 8085))
     
     await mcp.run_async(
-        "http",
+        "streamable-http",
         host="0.0.0.0",
         port=port,
     )
